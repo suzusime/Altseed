@@ -15,7 +15,7 @@ with aceutils.CurrentDir('../Downloads'):
     else:
         aceutils.copytree(r"Box2D-Linux", "box2d_temp")
 
-    aceutils.rmdir(r"box2d_temp/.git/")
+    aceutils.rmdir(r"\"box2d_temp/.git\"")
 
 
     aceutils.rmdir(r"box2d_bin")
