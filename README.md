@@ -1,4 +1,15 @@
-﻿Altseed
+﻿# メモ
+## ビルド
+```
+set PATH="c:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x64\";%PATH%
+build_dep_win.bat
+```
+
+あとは [公式文書](Document_Development/HowToCompile/HowToCompile.md)に従う
+
+<hr>
+
+Altseed
 =========================
 
 AltseedはC++、C#、Java対応ゲームエンジンです。
